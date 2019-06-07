@@ -1,0 +1,24 @@
+<!-- Indices written at Sun, 31 Mar 2013 18:15:18 UTC -->
+
+<datastore-indexes>
+
+    <!-- Used 22 times in query history -->
+    <datastore-index kind="TrainTracker" ancestor="false" source="auto">
+        <property name="createdDate" direction="asc"/>
+        <property name="time" direction="asc"/>
+    </datastore-index>
+
+    <!-- Used 151 times in query history -->
+    <datastore-index kind="TrainTracker" ancestor="false" source="auto">
+        <property name="createdDate" direction="asc"/>
+        <property name="trainName" direction="asc"/>
+        <property name="time" direction="asc"/>
+    </datastore-index>
+
+    <!-- Used 4 times in query history -->
+    <datastore-index kind="Timings" ancestor="false" source="auto">
+        <property name="trainName" direction="asc"/>
+        <property name="boardingAt" direction="asc"/>
+    </datastore-index>
+
+</datastore-indexes>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" output="target/test-classes" path="src/test/java"/>
+	<classpathentry including="**/*.java" kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path=".apt_generated"/>
+	<classpathentry excluding="**/*.java" kind="src" path="src/main/resources"/>
+	<classpathentry kind="var" path="M2_REPO/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER"/>
+	<classpathentry kind="var" path="M2_REPO/junit/junit/4.7/junit-4.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/appengine/appengine-api-stubs/1.7.0/appengine-api-stubs-1.7.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/appengine/appengine-testing/1.7.0/appengine-testing-1.7.0.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/lambdaj-2.4-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/gson-2.2.2.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/slim3-1.0.16.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/joda-time-2.2.jar"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>
